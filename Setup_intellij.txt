@@ -1,0 +1,44 @@
+ Download IntelliJ IDEA Community Edition
+
+IntelliJ IDEA Community Edition is an open-source version of IntelliJ IDEA, a premier IDE for Java, Scala and other JVM-based programming languages. You can download it from the official website.
+
+2. Install the Scala plugin
+
+Before you create or open a Scala project, you need to install the Scala plugin. For that, use the Configure → Plugins → Browse JetBrains Plugins from the Welcome Screen, or Preferences (Settings) → Plugins.
+
+
+Note that Scala plugin requires restart to complete installation.
+
+3. Setup the JDK
+
+From the welcome screen, go to Configure → Project defaults → Project structure and add the JDK.
+
+4. Creating a project
+
+The easiest way to create a project is to use the Project Wizard. To use it, Click Create New Project on the Welcome Screen, then select Scala, and finally SBT Project.
+
+5. Creating a Scala worksheet
+
+Simply use the Create New action from context menu or press Ctrl+N on a Scala source root.
+
+
+
+6. Creating a Scala class
+
+ Scala classes are created via context menu action Create New, or by using the Ctrl+N shortcut..
+
+7. Opening an SBT project
+
+To open an SBT project in IntelliJ IDEA, go to the Welcome Screen, click Import Project, and select SBT build file that you wish to open. IntelliJ IDEA will then create a new project and import the selected file to it.
+
+Also, you can open an SBT project without calling the Import Project action. Just click Open Project from the Welcome Screen and select an SBT build file.
+
+8. Synchronizing SBT and IntelliJ IDEA projects
+
+IntelliJ IDEA SBT support synchronizes the project with your build file, so when you change Scala version you're going to use, or add a library, your project is updated accordingly. For the next time, you can avoid this step by checking off the option ''Use auto-import" in Step 7.
+
+
+
+9. Using terminal to run SBT commands
+
+The easiest way to run SBT commands from from IntelliJ IDEA is to use the Terminal tool window via Alt+F12.
